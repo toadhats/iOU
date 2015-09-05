@@ -15,6 +15,7 @@
 		AB94174E1B99DEB60011C471 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB94174C1B99DEB60011C471 /* LaunchScreen.xib */; };
 		AB94175A1B99DEB70011C471 /* iOUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9417591B99DEB70011C471 /* iOUTests.swift */; };
 		AB9417641B99EB4D0011C471 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9417631B99EB4D0011C471 /* Theme.swift */; };
+		AB9417661B9A869D0011C471 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9417651B9A869D0011C471 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AB9417581B99DEB70011C471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9417591B99DEB70011C471 /* iOUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOUTests.swift; sourceTree = "<group>"; };
 		AB9417631B99EB4D0011C471 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AB9417651B9A869D0011C471 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				AB9417421B99DEB60011C471 /* iOU.xcdatamodeld */,
 				AB94173E1B99DEB60011C471 /* Supporting Files */,
 				AB9417631B99EB4D0011C471 /* Theme.swift */,
+				AB9417651B9A869D0011C471 /* TableViewController.swift */,
 			);
 			path = iOU;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				AB9417461B99DEB60011C471 /* SummaryViewController.swift in Sources */,
 				AB9417641B99EB4D0011C471 /* Theme.swift in Sources */,
 				AB9417411B99DEB60011C471 /* AppDelegate.swift in Sources */,
+				AB9417661B9A869D0011C471 /* TableViewController.swift in Sources */,
 				AB9417441B99DEB60011C471 /* iOU.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

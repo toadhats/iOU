@@ -25,6 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CLLocationManagerDelegate
         // Applying theme
         // let theme = ThemeManager.currentTheme()
         // ThemeManager.applyTheme(theme)
+        let sharedApplication = UIApplication.sharedApplication()
+        sharedApplication.delegate?.window??.tintColor = UIColor(red: 114, green: 142, blue: 233, alpha: 1)
         
         // Putting status bar in dark mode
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
